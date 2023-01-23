@@ -1,0 +1,146 @@
+body {
+    margin:  0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.main-conten {
+    min-width: 1000px;
+    padding: 50px;
+    margin-inline: auto;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-wrapper {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    border-top:  solid 1px ;
+    border-bottom:  solid 1px ;
+    padding:  15px 10px;
+}
+
+.nav-list a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.nav-list a > div {
+    display: flex;
+    margin-left: 20px;
+} 
+
+
+.company-session {
+    margin-top: 50px;
+    background-color:rgba(197, 197, 197, 0.87);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.company-session h2 {
+    position: absolute;
+    max-width: 1000px;
+    top: -170px;
+    right: 0px;
+    font-size: 80px;
+    color: rgb(146, 146, 146);
+}
+
+.session-tittle {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.session-tittle img {
+    width: 320px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.session-tittle-text {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.session-tittle-text b {
+    display: flex;
+}
+
+.main-movie {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* swipper start */
+
+
+.swiper {
+    max-width: 1000px;
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  /* swipper end */

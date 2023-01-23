@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>index</title>
+    <script rel="/js/script.js"></script>
+</head>
+<body>
+    <div class="main-conten">
+        <div class="nav-wrapper">
+            <div class="nav-list">
+                <a href="">
+                    <img src="/img/img.png" alt="">
+                    <div>会社説明動画</div>
+                </a>
+            </div>
+            <div class="nav-list">
+                <a href="">
+                    <img src="/img/img.png" alt="">
+                    <div>働く人を知る</div>
+                </a>
+            </div>
+            <div class="nav-list">
+                <a href="">
+                    <img src="/img/img.png" alt="">
+                    <div>働く環境を知る</div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="company-session">
+            <div class="session-tittle">
+                <h2>会社説明動画</h2>
+                <img src="/img/img.png" alt="">
+                <div class="session-tittle-text">
+                    ナカジツグループで働く社員が日々どのような業務に取り組んでいるか同僚たちとどんな雰囲気で働いているかを赤裸々に紹介。
+                    職種ごとの特徴や入社後のキャリアステップ等を語っています。
+                </div>
+            </div>
+            <div class="main-movie">
+                <iframe width="1120" height="520" src="https://www.youtube.com/embed/3IYNBs16Ezg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/img/img.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/img.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/img.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/img.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/img.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/img.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next" style="color: #f60;"></div>
+                    <div class="swiper-button-prev" style="color: #f60;"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    slidesPerGroup: 3,
+                    loop: true,
+                    loopFillGroupWithBlank: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
